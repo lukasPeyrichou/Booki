@@ -427,12 +427,16 @@ footer {
 
     .hebergements {
         width: 100%;
-        order: 2;
+        order: 1;
+    }
+
+    .hebergements-cards > a {
+        width: calc(50% - 10px);
     }
 
     .populaires {
         width: 100%;
-        order: 1;
+        order: 2;
     }
 
     .populaires-cards {
@@ -452,15 +456,6 @@ footer {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
-    }
-
-    .activites-cards {
-        flex-wrap: wrap;
-    }
-
-    .activite-card {
-        flex: none;
-        width: calc(50% - 10px);
     }
 }
 
