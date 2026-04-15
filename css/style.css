@@ -430,8 +430,8 @@ footer {
         order: 1;
     }
 
-    .hebergements-cards > a {
-        width: calc(50% - 10px);
+    .voir-plus {
+        text-align: left;
     }
 
     .populaires {
