@@ -354,6 +354,7 @@ h1, h2, h3, p {
 /****** Activités ***********/
 .activites {
     margin-bottom: 60px;
+    padding: 0 30px;
 }
 
 .activites .section-title {
