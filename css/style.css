@@ -534,7 +534,22 @@ footer {
     /* Hébergements & Populaires */
     .hebergements-and-populaires section {
         border-radius: 0px;
-        
+    }
+
+    .hebergements {
+        order: 2;
+    }
+
+    .hebergements-and-populaires .hebergements {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .populaires {
+        order: 1;
+        width: calc(100% + 40px);
+        margin-left: -20px;
+        padding: 30px 20px;
     }
 
     .hebergements-cards > a {
